@@ -8,4 +8,4 @@ for ch in string:
         result=result+ch
         lis[indx] = 1
 
-print(f"Unique characters in string: {result}")
+print(f"String Without Repeatation: {result}")
