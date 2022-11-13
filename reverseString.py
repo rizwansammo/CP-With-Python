@@ -5,5 +5,10 @@ def reverseString(string):
         reverseString += string[ index - 1 ]
         index = index - 1
     return reverseString
-string = input("Enter: ")
-print(reverseString(string))
+case = 0
+case = int(input("How Many Time?: "))
+counter = 1
+while counter <= case:
+    string = input("Enter: ")
+    print(reverseString(string))
+    counter +=1
