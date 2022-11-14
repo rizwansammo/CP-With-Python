@@ -11,4 +11,4 @@ def calculateSum(l):
     return sum
 
 
-print(calculateSum([1,2,3]))
+print(calculateSum(li)
