@@ -6,7 +6,7 @@ def calculateSum():
     while len(li) < lenth:
         l = int(input("Enter your Item to the List: "))
         li.append(l)
-    for i in li: #parmeter must be a list
+    for i in li:
         sum+=i
     print(f"Sum is {sum}")
 
