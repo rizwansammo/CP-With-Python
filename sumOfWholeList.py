@@ -8,7 +8,4 @@ def calculateSum(l):
         li.append(l)
     for i in li: #parmeter must be a list
         sum+=i
-    return sum
-
-
-print(calculateSum(li))
+    print(f"Sum is {sum}")
